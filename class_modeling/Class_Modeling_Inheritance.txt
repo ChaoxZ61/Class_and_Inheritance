@@ -1,0 +1,82 @@
+Animal
+--------
++ species: string
++ age: int
+--------
++ move()
++ eat()
+
+Fish(Animal)
+--------
++ length: float
+--------
+
+
+Snake (Animal)
+--------
++ length: float
+--------
+
+Person(Animal)
+--------
++ name: string
+--------
++ work()
+
+
+Book
+--------
++ title: string
++ author: string
++ year_published: int
++ genre: string
+--------
++ readBy(reader): string
+
+Textbook(Book)
+--------
++ subject: string
++ level: string
+--------
+
+AddressBook(Book)
+--------
++ region: string
+--------
+
+
+
+Vehicle
+--------
++ model: string 
++ manufacturer: string
++ year: int
++ weight: int
+--------
++ speeding()
++ breaking()
+
+
+Car(Vehicle)
+--------
++ horsepower: int
+--------
++ openDoor()
+
+Bicycle(Vehicle)
+--------
++ wheelSize: float
+--------
++ ride()
+
+Boat(Vehicle)
+--------
++ length: float
+--------
++ surfing()
+
+HotAirBallon(Vehicle)
+--------
++ size: float
+--------
++ rise()

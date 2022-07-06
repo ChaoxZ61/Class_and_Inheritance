@@ -1,0 +1,33 @@
+Animal
+--------
++ species: string
++ age: int
+--------
++ move()
++ eat()
+
+
+
+Book
+--------
++ title: string
++ author: string
++ year_published: int
++ genre: string
+--------
++ readBy(reader): string
+
+
+
+
+Vehicle
+--------
++ model: string 
++ manufacturer: string
++ year: int
++ horsepower: int
++ weight: int
+--------
++ speeding()
++ breaking()
++ openDoor()
